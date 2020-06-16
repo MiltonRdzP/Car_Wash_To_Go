@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "447938594153",
+    "firebase_url": "https://car-wash-to-go-41334.firebaseio.com",
+    "project_id": "car-wash-to-go-41334",
+    "storage_bucket": "car-wash-to-go-41334.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447938594153:android:b6ef5fbe5e50c2645ce9f8",
+        "android_client_info": {
+          "package_name": "com.example.carwashtogo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447938594153-ff1que628bs2jugs2ne8d9fd3bm7abq7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carwashtogo",
+            "certificate_hash": "f2f5dc4b6e7694b0bbb9c57c746da0412d274fdc"
+          }
+        },
+        {
+          "client_id": "447938594153-99kdabga6s2fa350rvta6r2dsqfhhg1e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM488ZLSFODxxpbbl6BcxSrMbz4yuqQFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447938594153-99kdabga6s2fa350rvta6r2dsqfhhg1e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

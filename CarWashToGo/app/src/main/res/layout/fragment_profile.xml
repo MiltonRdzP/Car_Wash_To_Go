@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fb"
+    tools:context=".ProfileFragment">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imag"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@drawable/f12">
+
+
+            </ImageView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="15dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:foregroundGravity="center"
+                    android:id="@+id/avatarIv"
+                    android:src="@drawable/ic_default_img"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+            </LinearLayout>
+
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                >
+
+                <ProgressBar
+                    android:visibility="visible"
+                    android:id="@+id/wait"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:paddingTop="30dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"></ProgressBar>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_below="@+id/imag"
+    android:layout_height="500dp">
+    <LinearLayout
+
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameTv"
+            android:gravity="left"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_completo"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            ></TextView>
+        <TextView
+            android:labelFor="@+id/nameTv"
+            android:id="@+id/emailTv"
+            android:gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"></TextView>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            >
+
+            <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/phoneTv"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"></TextView>
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edad"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"></TextView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/edad"
+                android:gravity="center"
+                android:text=""
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="5dp"
+                android:textSize="20dp"></TextView>
+        </GridLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:background="@drawable/f12"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_edit_profile"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</RelativeLayout>

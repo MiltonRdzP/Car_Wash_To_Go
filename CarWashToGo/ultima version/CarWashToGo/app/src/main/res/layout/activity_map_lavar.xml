@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapLavar">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+
+    </fragment>
+
+    <Switch
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:textColor="@android:color/black"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:text="@string/working"
+        android:layout_margin="20dp"
+        android:id="@+id/workingswitch"></Switch>
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/history"></Button>
+
+    <Button
+        android:id="@+id/paypal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/paypal"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/needserviceinfo"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:visibility="visible">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/nsProfileImage"
+            android:src="@mipmap/ic_lavador"
+            android:padding="20sp"></com.blogspot.atifsoftwares.circularimageview.CircularImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nsname"
+                android:paddingBottom="10sp"
+                android:text="@string/nombre_completo"
+                android:paddingTop="20sp"></TextView>
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_below="@id/nsname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/nsPhone"
+                android:paddingBottom="10sp"
+                android:text="@string/telefono"
+                android:paddingTop="20sp"></TextView>
+
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/nsname"
+                android:layout_gravity="bottom"
+                android:id="@+id/btn_msg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/communication"
+                android:layout_toRightOf="@id/nsPhone"
+                ></Button>
+
+            <Button
+                android:layout_below="@+id/nsPhone"
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/autolavado"></Button>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</FrameLayout>

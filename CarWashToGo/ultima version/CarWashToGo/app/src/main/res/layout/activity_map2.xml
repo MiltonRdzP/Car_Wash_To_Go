@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map" >
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/buscarcwman"
+        android:layout_gravity="center_horizontal"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toTopOf="parent"
+        map:layout_constraintVertical_bias="0.947"
+        android:layout_marginTop="10dp"></Button>
+
+
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/history"></Button>
+
+    <Button
+        android:id="@+id/paypal"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/paypal"></Button>
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"></fragment>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/driverinfo"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/driverProfileImage"
+            android:src="@mipmap/ic_lavador"
+            android:padding="20sp"></com.blogspot.atifsoftwares.circularimageview.CircularImageView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/drivername"
+                android:paddingBottom="10sp"
+                android:text="@string/nombre_completo"
+                android:paddingTop="20sp"></TextView>
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_below="@id/drivername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/driverphone"
+                android:paddingBottom="10sp"
+                android:text="@string/telefono"
+                android:paddingTop="20sp"></TextView>
+            <Button
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom"
+                android:id="@+id/btn_msg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/communication"
+                android:layout_below="@id/drivername"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"></Button>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/driverphone"
+                android:layout_gravity="center"
+                android:numStars="5"
+                android:stepSize="0.1" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>
+
+
+

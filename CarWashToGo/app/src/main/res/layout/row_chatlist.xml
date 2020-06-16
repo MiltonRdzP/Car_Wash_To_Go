@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:id="@+id/profileIv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/ic_default_img"></com.blogspot.atifsoftwares.circularimageview.CircularImageView>
+
+    <ImageView
+    android:id="@+id/onlineStatusIv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"></ImageView>
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre_completo"
+        android:textSize="18dp"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@id/profileIv"
+        android:layout_toRightOf="@id/profileIv"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp"></TextView>
+    <TextView
+        android:id="@+id/lastMessageTv"
+        android:layout_marginStart="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lastm"
+        android:maxLines="2"
+        android:layout_below="@+id/nameTv"
+        android:layout_toEndOf="@id/profileIv"
+        android:layout_toRightOf="@id/profileIv"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp"></TextView>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

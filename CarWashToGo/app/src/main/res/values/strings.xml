@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Car Wash To Go</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="activitytitleregistro">Registro</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="email">Email</string>
+    <string name="edad">Edad</string>
+    <string name="telefono">Teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="password_Confirm">Confirme la contraseña</string>
+    <string name="Terminos">Al hacer clic en Registrar, aceptas nuestros Términos de servicio, Política de privacidad y el uso de cookies</string>
+    <string name="verterminos">Ver términos</string>
+    <string name="registrar">Registrar</string>
+    <string name="ya_tengo_user">Ya tengo usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="newuser">Soy nuevo no tengo usuario</string>
+    <string name="olvidepassword">¿Olvidaste tu contraseña?</string>
+
+    <!-- TODO: para perfiles -->
+
+    <string name="perfil">Perfil</string>
+    <string name="chat">Lista de Chat</string>
+    <string name="buscarcwman">Buscar Car Wash Man</string>
+    <string name="buscarautos">Buscar Autos</string>
+
+    <!-- TODO: map lavar -->
+    <string name="working">Trabajando</string>
+    <string name="autolavado">Auto Lavado!</string>
+    <string name="locationwash">Localización de lavado</string>
+    <string name="llamara">Llamar a: </string>
+    <string name="llamara2">¿Esta seguro que desea marcar al usuario?</string>
+    <string name="permisoubicacion">Acepta los permisos de ubicación</string>
+    <string name="permisoubicacion2">Acepta permisos de ubicación</string>
+
+
+    <string name="online">En linea</string>
+    <string name="escrbe">Escribe..</string>
+    <string name="escrbiendo">Escribiendo..</string>
+    <string name="lastm">Ultimo mensaje</string>
+    <string name="newm">Nuevo mensaje</string>
+    <string name="lastconcetion">Ultima conexión</string>
+    <string name="llenaresnaje">Llenar para enviar mensaje..</string>
+    <string name="borrar">Borrar</string>
+    <string name="eliminarmsg">Eliminar mensaje</string>
+    <string name="msgeliminado">Mensaje eliminado...</string>
+    <string name="onlyyoumsg">Solo puedes eliminar tus mensajes</string>
+
+    <string name="hismssg">Su mensaje</string>
+    <string name="delivered">Enviado</string>
+
+
+    <string name="tpago">Metodo de pago Paypal</string>
+    <string name="fecha">Fecha</string>
+    <string name="pagar">Pagar</string>
+    <string name="pagado">Pagado mediante Paypal</string>
+    <string name="catpagar">Ingrese cantidad a pagar</string>
+    <string name="icant">Ingrese cantidad</string>
+
+    <string name="time">Tiempo</string>
+    <string name="lavar">Lavar</string>
+    <string name="chats">Chats</string>
+
+    <!-- TODO: En el codigo -->
+    <string name="contranocoinci">Contraseñas no coinciden</string>
+    <string name="min5">Minimo 5 caracteres</string>
+    <string name="veremailenviada">Verificación de Email enviada</string>
+    <string name="error">Error! Email no enviado </string>
+    <string name="pasosolvidepass">Ingresa tu email para recibir un link de reset password</string>
+    <string name="ingresocompletado">Ingreso Completado!</string>
+    <string name="si">Sí</string>
+    <string name="linkreset">Link de reset Password se ha enviado a su correo</string>
+    <string name="errorlinkreset">Error! No se ha mandado el reset link</string>
+    <string name="errorcredenciales">Error con las credenciales ingresadas!</string>
+
+
+    <!-- TODO: map  -->
+    <string name="nofound">No se han encontrado resultados</string>
+    <string name="lavaraqui">Lavar Aqui</string>
+    <string name="obteniedocarwashman">Obteniendo tu Car Wash Man..</string>
+    <string name="llego">Car Wash Man llegó!</string>
+    <string name="carwman">Car Wash man: </string>
+
+
+    <string name="pagoprocces">Tu pago esta en proceso..</string>
+    <string name="p1">Pagado exitosamente!</string>
+    <string name="p2">Error: no hay pago disponible</string>
+
+
+    <string name="cancel">Cancelar</string>
+
+    <!-- TODO: En el codigo  Profile fragment-->
+    <string name="editar_imagen_perfil">Editar Imagen Perfil</string>
+    <string name="editar_nombre">Editar Nombre</string>
+    <string name="editar_edad">Editar edad</string>
+    <string name="elige_opcion">Elige una opción</string>
+    <string name="ac_imagen">Actualizando Imagen de perfil</string>
+    <string name="ac_tel">Actualizando Teléfono</string>
+    <string name="ac_edad">Actualizando Edad</string>
+    <string name="edit">Editar</string>
+    <string name="actu">Actualizar</string>
+    <string name="actuñ">Actualizado..</string>
+    <string name="camara">Camara</string>
+    <string name="gallery">Galeria</string>
+    <string name="elige_ocpion">Elige una opción</string>
+    <string name="activa_camra">Activa la opcion Permitir acceso a camara y almacenamiento</string>
+    <string name="activa_permitir">Activa la opcion Permitir acceso a almacenamiento</string>
+    <string name="img_subida">Imagen subida</string>
+    <string name="img_nosubida">Imagen no subida</string>
+    <string name="errorimg">Ha ocurrido un error</string>
+
+    <string name="logout">Cerrar sesión</string>
+
+
+
+
+    <string name="title_activity_map">Map</string>
+    <string name="permisogps">Otorgar permiso GPS</string>
+    <string name="hcm">Hombre Car Wash</string>
+    <string name="wait">espera un momento..</string>
+    <string name="p3">Error: no se pudo completar la transacción</string>
+    <string name="editar_telefono">Editar Teléfono</string>
+    <string name="ac_nombre">Actualizando Nombre</string>
+    <string name="intro">Introducir</string>
+    <string name="introz">Introduzca</string>
+
+<string name="terminos2">Términos</string>
+    <string name="c1">Condiciones de uso</string>
+    <string name="c3">" \nEstas Condiciones de uso rigen el uso de nuestra App Car Wash To Go e incluyen información sobre el Servicio que se brinda, el cual se detalla a continuación.          Cuando creas una cuenta de Car Wash To Go, aceptas estas condiciones. "</string>
+
+    <string name="c41">" \nCar Wash To Go nuestro servicio"</string>
+    <string name="c4">"  \nAceptamos proporcionarte el Servicio de Car Wash To Go, que incluye las funciones, los servicios, las tecnologías y el software que ofrecemos para cumplir la misión de Car Wash To Go: Conectar a las personas que desean que les laven su auto a aquellas que desean lavar un carro. El Servicio se compone de los siguientes aspectos (el Servicio):   Oportunidades al alcance de tu mano  •\tOportunidad de encontrar a una persona cerca de ti la cual este buscando que le laven su auto, para de esta manera encontrar a alguien que pueda lavarlo, conectando dos usuarios por medio de nuestra aplicación, se brindan oportunidades de empleo practicas a cualquier hora del dia.  Seguridad  •\tSe cuenta con un sistema de rating para aquellos que son CarWashMan, ya que de esta manera se genera mas confianza en los usuarios que rodean la aplicación.  •\tTambién contamos con información que nos brindan los usuarios por lo cual el objetivo es combatir el abuso y las violaciones de nuestras Condiciones y políticas, así como combatir comportamientos perjudiciales y engañosos. Usamos toda la información que tenemos, incluida la tuya, para proteger nuestra plataforma. Asimismo, es posible que compartamos información sobre usos indebidos o contenido perjudicial.  Comodidad  •\tContamos con un método de pago tipo PayPal el cual ayuda a los usuarios a recibir sus pagos de manera más fácil y optima, además de cuidar la integridad y seguridad de cada usuario.  Realizar investigaciones e innovar.  Usamos la información que tenemos para estudiar nuestro Servicio y colaborar con otros en investigaciones que nos permitan mejorarlo y contribuir con el bienestar de nuestra comunidad.  "</string>
+    <string name="c5">"\n Política de la plataforma  Al usar la aplicacion de Car Wash To Go, aceptas esta política. El término plataforma se refiere al conjunto de API, SDK, plugins, código, especificaciones, documentación, tecnología y servicios (como el contenido) que permiten que otras personas, incluidos los desarrolladores de aplicaciones y los operadores de sitios web, obtengan datos de Car Wash To Go o nos los proporcionen. "</string>
+    <string name="c6">"\n Condiciones generales  \n•\tAsegúrate de que tu aplicación sea estable y fácil de navegar. Por ejemplo, verifica que hayas integrado correctamente el inicio de sesión. Tu aplicación no debe bloquearse durante los procesos de prueba.  •\tNo debes confundir, defraudar, engañar ni acosar a ninguna persona.  •\tSé transparente respecto de tu identidad y la de tu aplicación.  •\tAsegurate de que tu dispositivo cuenta con gps ya que Car Wash To Go necesita de este.  •\tAsegurate de que tu dispositivo cuenta con internet ya que Car Wash To Go necesita de este.  •\tAsegurate de dar los permisos tanto de ubicación como de cámara, galería e internet a nuestra aplcacion.  •\tNo almacenes ni guardes en la memoria caché las credenciales de inicio de sesión de Instagram.  •\tCumple con tu política de privacidad.  •\tNo fraudes en la aplicación  •\tMantener datos confiables al registrarte en la aplicación, no uses nombres diferentes al tuyo, la aplicación no es un juego.  •\tComo aplicación no nos hacemos responsables de conflictos relacionados a tratos personales de usuarios.  "</string>
+    <string name="c7">" \nInformación importante  \n•\tSe requiere de un correo actualizado y 100% real ya que se pedirá la autentificación de este.  •\tSe requieren de algunos datos personales para completar el registro de usuarios.  •\tAl crear una cuenta ingresaras a nuestra aplicación por lo cual debes de verificar tu cuenta en tu correo ingresado, una vez verificada, cierra la sesión actual en tu aplicación y vuelve a ingresar, de esta manera estas listo para utilizar la aplicación.  •\tPara mejorar tu comodidad y la de los usuarios añade una imagen a tu perfil, de preferencia que sea clara.  •\tSi algún dato como tu nombre completo, edad o teléfono tiene algún error, es posible editarlo en el apartado perfil.  •\tSi entras a buscar un Car Wash Man asegúrate de darle clic al botón “Buscar Car Wash Man “de esta manera la aplicación junto con la base de datos estará buscando un Usuario disponible para lavarte tu carro, en caso de no aparecer, no desesperes, Inténtalo luego.  •\tSi encuentras a un usuario que te lave el carro la app te dará la distancia en la que se encuentra por lo tanto si el cliente esta a menos de 100 metros, quiere decir que esta muy cerca por lo cual puedes iniciar una conversación con el mediante el botón mensaje que se encuentra en la parte inferior derecha, esto para lograr un acuerdo en los pagos, ¡ojo!, la aplicación no se hace responsable del dinero manejado en los acuerdos que se lleguen a concretan entre usuarios.  •\tSi entras como Car Wash Man, veras un swich el cual te indica al inicio que estas desconectado, para conectarte básicamente dale al swich y con esto la aplicación se encargara de encontrar un usuario disponible.  •\t¡Una vez encontrado un usuario, se habilitará el botón “auto lavado!” el cual añade al botón PayPal un registro tanto al cliente como a tu usuario, esto para poder realizar el pago mediante PayPal dentro de nuestra aplicación, ¡ojo!, la aplicación no se hace responsable del dinero manejado en los acuerdos que se lleguen a concretan entre usuarios.  •\tEn dado caso de que ocurra un problema y no puedas observar tanto a tu car wash man como a tu cliente, pero hayas tenido una conversación con él, no te preocupes, las conversaciones en la pantalla principal de nuestra aplicación, solo basta con que te vayas a lista de chat para encontrarte con aquellos usuarios con los que hayas tenido alguna conversación con anterioridad.  "</string>
+    <string name="c8">" \nInformación sobre las cookies  \n¿Qué son las cookies?  \nLas cookies son pequeños archivos de texto que contienen una cadena de caracteres que se puede colocar en una computadora o un dispositivo móvil y sirve para identificar de forma exclusiva un navegador o dispositivo. Podemos usar ciertas tecnologías, como las cookies, los píxeles y el almacenamiento local, para proporcionar y proteger productos, servicios y anuncios, así como para conocer su funcionamiento.  Nuestra aplicación usa diversas cookies para otorgar mas calidad de uso a nuestros clientes  Una de ellas se muestra a continuación:  Cookies de tercero (Google Analytics) que permiten realizar un análisis de uso del sitio web por parte de sus usuarios para mejorar nuestros servicios. Concretamente, estas cookies registran cuántas veces visita el sitio web un usuario único, contabilizan el número de sesiones por usuario y almacenan el origen de éste. Estas cookies son proporcionadas como servicio por Google Inc.   "</string>
+    <string name="c2">" Te damos la bienvenida a Car Wash To Go. "</string>
+
+    <string name="a1">Tu cuenta Email no ha sido autentificada, favor de autentificar</string>
+    <string name="a2">Si ya haz autentificado tu cuenta, cierra sesión y vuelve a ingresar a tu cuenta para usar la aplicación</string>
+    <string name="a3">Verificar Ahora!</string>
+
+
+</resources>
